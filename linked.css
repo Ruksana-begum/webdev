@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    background-color: blanchedalmond;
+    width: 60%;
+    padding: 1%;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
+    height:500px;
+}
+.left{
+    background-color: rgb(172, 109, 15);
+    border:2px solid black;
+    width: 20%;
+   
+    padding: 15px;
+    margin:1%;
+
+}
+.field1{
+    width:120px;
+    height:48%;
+    background-color: red;
+    border:2px solid black;
+    margin: 3%;
+    justify-content: center;
+
+}
+.field2{
+    width:120px;
+    height:48%;
+    background-color: blue;
+    border:2px solid black;
+    margin: 3%;
+   
+
+}
+.middle{
+    background-color:gold;
+    border:2px solid black;
+    width: 65%;
+    margin: 1%;
+}
+.middle2{
+    margin:1%;
+    background-color:white;
+    border:2px solid black;
+    width: 96%;
+    height: 460px;
+    padding: 2px -1px 2px ;
+}
+.field3{
+    width: 90%;
+    height: 30%;
+    background-color: black;
+    border: 2px solid black;
+    margin: 3%;
+}
+.field4{
+    width: 90%;
+    height: 60%;
+    background-color:black;
+    border: 2px solid black;
+    margin: 3%;
+}
+.right{
+    background-color: brown;
+    border:2px solid black;
+    width: 20%;
+    padding: 10px;
+    margin: 1%;
+
+
+}
+.field5{
+    width: 125px;
+    height: 48%;
+    background-color:red;
+    border: 2px solid black;
+    margin: 3%;
+}
+.field6{
+    width: 125px;
+    height: 48%;
+    background-color:blue;
+    border: 2px solid black;
+    margin: 3%;
+}
