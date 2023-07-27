@@ -1,0 +1,43 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            width: 600px;
+            height: 400px;
+            margin: 50px auto;
+            border: 2px solid #52eb64;
+            padding: 10px;
+            background-color:lightgoldenrodyellow;
+        }
+
+        img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            margin: 0;
+            border: 2px solid blue;
+
+        }
+
+        .paragraph1 {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            margin: 0;
+            color: blueviolet;
+        }
+
+        .paragraph2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            text-align: center;
+            color:red;
+        }
+

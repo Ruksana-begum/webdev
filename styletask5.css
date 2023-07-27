@@ -1,0 +1,25 @@
+/* Apply some basic styling to the image gallery */
+.image-gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
+.image-thumbnail {
+    width: 30%;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+}
+
+.image-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+/* Apply the hover effect to the thumbnail */
+.image-thumbnail:hover {
+    transform: scale(1.2);
+}

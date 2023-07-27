@@ -1,0 +1,44 @@
+
+html,body {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    background-color: aqua;
+}
+.parent {
+    height:30%;
+    width: 35%;
+    background-color:azure;
+    border:1px solid black;
+    position:relative;
+    top:200px;
+    left: 300px;
+    /* only use this when you want to change the position of 
+    any html element to its original position */
+}
+/* absolute: to manipulate the position of child inside the parent and parent position should be relative*/
+.child {
+    height: 30%;
+    width:30%;
+    background-color: violet;
+    border: 1px solid blue;
+    position:absolute;
+    top:40px;
+    left:80px;
+}
+.box{
+    height: 40%;
+    width:40%;
+    margin: 400px;
+    background-color: #FFEECC;
+    border:1px solid black;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 7px 8px 24px -9px black;
+}
+.box:hover{
+    background-color: lightskyblue;
+    transform:scale(1,1) ;
+    
+}

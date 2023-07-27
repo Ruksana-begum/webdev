@@ -1,0 +1,54 @@
+/* Apply some basic styling to the navigation bar */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color:greenyellow;
+    padding: 8px 15px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+/* Make the navigation bar fixed to the top */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.stick{
+    height:10%;
+    width:100%;
+    background-color:grey ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: fixed;
+top:0;
+    left: 0;
+    
+
+}
