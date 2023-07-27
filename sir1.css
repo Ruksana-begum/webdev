@@ -1,0 +1,47 @@
+.details{
+    background-color:lightgoldenrodyellow;
+    border: 1px solid green;
+    margin-bottom: 2px;
+    padding:5px;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.front{
+background-color:lightblue;
+    border: 1px solid black;
+    margin-bottom:20px;
+    padding: 5px;
+}
+
+.back{
+ background-color:lightgreen;
+border: 1px solid black;
+
+}
+.rear{
+background-color:cadetblue;
+color:red;
+border: 1px solid black;
+}
+.mid{
+background-color:rgb(78, 236, 231);
+border: 1px solid black;
+
+}
+.box1{
+height:200px;
+width:200px;
+margin-bottom:20px;
+padding: 50px;
+background-color:lightblue;
+border: 1px solid black;
+}
+.box2{
+height:200px;
+width:200px;
+background-color:lightgreen;
+border: 1px solid black;
+}
