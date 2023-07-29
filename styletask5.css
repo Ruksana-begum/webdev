@@ -1,22 +1,39 @@
 /* Apply some basic styling to the image gallery */
+html,body {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    background-color: rgb(221, 237, 42);
+    align-items: center;
+}
+
+
 .image-gallery {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid blue;
+    border-radius: 10px;
+    border-color: rgb(192, 19, 19);
+
 }
 
 .image-thumbnail {
     width: 30%;
     overflow: hidden;
+    border-radius: 10px;
     transition: transform 0.3s ease;
+    border-color: rgb(139, 23, 23);
 
 }
 
 .image-thumbnail img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    border-color: rgb(209, 23, 23);
+
 }
 
 /* Apply the hover effect to the thumbnail */
